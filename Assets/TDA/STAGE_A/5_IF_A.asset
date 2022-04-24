@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 974a496e8dd894444957bed4bc169dcf, type: 3}
+  m_Name: 5_IF_A
+  m_EditorClassIdentifier: 
+  _ID: 5
+  img: {fileID: 21300000, guid: fcf1bf1f956d05446b6152a0fc0fef2a, type: 3}
+  nombre: Pepe
+  especie: Ardilla
+  sexo: Macho
+  edad: 26
+  info: "- Usa lentes\r\n- Es escritor\r\n- Le gusta leer\r\n- Odia la m\xFAsica\r"
+  opciones_string:
+  - "! no es escritor && le gusta leer && ! no odia la m\xFAsica"
+  - "! no usa lentes && tiene 26 a\xF1os && ! no le gusta leer"
+  - "(! es ardilla && !odia la m\xFAsica) && le gusta leer"
+  - le gusta leer && (! no es escritor && ! usa lentes)

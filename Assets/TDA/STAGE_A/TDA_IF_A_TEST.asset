@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 974a496e8dd894444957bed4bc169dcf, type: 3}
+  m_Name: TDA_IF_A_TEST
+  m_EditorClassIdentifier: 
+  _ID: 0
+  img: {fileID: 21300000, guid: 5d7904d917909854f9105f4fb9ec91ba, type: 3}
+  nombre: Pepito
+  especie: Ardilla
+  sexo: Macho
+  edad: 20
+  info: '-Usa zapatos rojos
+
+    - Le gustan las bellotas
+
+    - Sabe cantar opera
+
+    -
+    Odia el tennis
+
+    - No le gusta leer'
+  opciones_string:
+  - condicion 1 v
+  - condicion 2 v
+  - condicion 3 f
+  - condicion 4 f

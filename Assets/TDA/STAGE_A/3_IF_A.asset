@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 974a496e8dd894444957bed4bc169dcf, type: 3}
+  m_Name: 3_IF_A
+  m_EditorClassIdentifier: 
+  _ID: 3
+  img: {fileID: 21300000, guid: 564aad4697a1bcf45b10213a94515871, type: 3}
+  nombre: Finn
+  especie: Ardilla
+  sexo: Macho
+  edad: 18
+  info: "- Le gusta escuchar musica\r\n- Tiene audifonos\r\n- Tiene un reproductor
+    de m\xFAsica\r\n- Le gusta estar solo\r\n"
+  opciones_string:
+  - "le gusta escuchar m\xFAsica && (! no tiene audifonos && tiene 18 a\xF1os)"
+  - "(tiene un reproductor de m\xFAsica && ! no es ardilla) && ! no le gusta estar
+    solo"
+  - "! le gusta escuchar m\xFAsica && le gusta estar solo"
+  - "tiene reproductor de m\xFAsica && !tiene aud\xEDfonos"

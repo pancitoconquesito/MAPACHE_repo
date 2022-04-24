@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 974a496e8dd894444957bed4bc169dcf, type: 3}
+  m_Name: 4_IF_A
+  m_EditorClassIdentifier: 
+  _ID: 4
+  img: {fileID: 21300000, guid: f721cd46a985e3e4da1cb6b02e141d9d, type: 3}
+  nombre: Jack
+  especie: Ardilla
+  sexo: Macho
+  edad: 35
+  info: "- Usa mascarilla\r\n- Es m\xE9dico\r\n- Le gusta trabajar\r\n- Odia las
+    fiestas\r\n"
+  opciones_string:
+  - "(es m\xE9dico && tiene 35 a\xF1os) && es ardilla"
+  - le gusta trabajar && (usa mascarilla && odia las fiestas)
+  - "! le gusta trabajar && es m\xE9dico"
+  - "! tiene menos de 30 a\xF1os && (usa mascarilla && es m\xE9dico)"
